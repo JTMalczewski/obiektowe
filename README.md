@@ -1,10 +1,10 @@
 **Zadanie 1** Paradygmaty
 
-:white_check_mark: 3.0 3.0 Procedura do generowania 50 losowych liczb od 0 do 100 [Link do commita 1](https://github.com/JTMalczewski/obiektowe/commit/ce4cc7db0290df364bcff5c4c9d66c816df2d817)
+:white_check_mark: 3.0 Procedura do generowania 50 losowych liczb od 0 do 100 [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/ce4cc7db0290df364bcff5c4c9d66c816df2d817)
 
-:white_check_mark: 3.5 Procedura do sortowania liczb [Link do commita2 ](https://github.com/JTMalczewski/obiektowe/commit/ce4cc7db0290df364bcff5c4c9d66c816df2d817)
+:white_check_mark: 3.5 Procedura do sortowania liczb [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/ce4cc7db0290df364bcff5c4c9d66c816df2d817)
 
-:white_check_mark: 4.0 Dodanie parametrów do procedury losującej określającymi zakres losowania: od, do, ile [Link do commita 3](https://github.com/JTMalczewski/obiektowe/commit/ce4cc7db0290df364bcff5c4c9d66c816df2d817)
+:white_check_mark: 4.0 Dodanie parametrów do procedury losującej określającymi zakres losowania: od, do, ile [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/ce4cc7db0290df364bcff5c4c9d66c816df2d817)
 
 :x: 4.5 5 testów jednostkowych testujące procedury
 
@@ -15,20 +15,14 @@ Kod: [Zadanie 1](https://github.com/JTMalczewski/obiektowe/tree/main/Zadanie%201
 
 **Zadanie 2** Wzorce architektury
 
-:white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/kprzystalski/workshop_template/commit/hash)
+Należy stworzyć aplikację webową na bazie frameworka Symfony na obrazie kprzystalski/projobj-php:latest. Baza danych dowolna, sugeruję SQLite.
 
-:white_check_mark: 3.5 wymaganie 2 [Link do commita2 ](https://github.com/kprzystalski/workshop_template/commit/hash)
+:x: 3.0 Należy stworzyć jeden model z kontrolerem z produktami, zgodnie z CRUD
 
-:white_check_mark: 4.0 wymaganie 3 [Link do commita 3](https://github.com/kprzystalski/workshop_template/commit/hash)
+:x: 3.5 Należy stworzyć skrypty do testów endpointów via curl
 
-:x: 4.5 wymaganie 4 [Link do commita 4](https://github.com/kprzystalski/workshop_template/commit/hash)
+:x: 4.0 Należy stworzyć dwa dodatkowe kontrolery wraz z modelami
 
-:x: 5.0 wymaganie 5 [Link do commita 5](https://github.com/kprzystalski/workshop_template/commit/hash)
+:x: 4.5 Należy stworzyć widoki do wszystkich kontrolerów
 
-
-Kod: (folder lub branch)
-
-
-Kod nalezy umieścić w w folderach lub na branchach, ale nalezy pod kazdym zadaniem wskazac link do brancha lub nazwę katalogu na repozytorium. 
-
-Do kazdego zadania nalezy przygotowac demo za pomocą https://obsproject.com/, a film (skompresowany) nalezy umiescic w katalogu demos.
+:x: 5.0 Stworzenie panelu administracyjnego z mockowanym logowaniem
