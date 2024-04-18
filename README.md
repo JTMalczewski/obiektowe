@@ -17,12 +17,14 @@ Kod: [Zadanie 1](https://github.com/JTMalczewski/obiektowe/tree/main/Zadanie%201
 
 Należy stworzyć aplikację webową na bazie frameworka Symfony na obrazie kprzystalski/projobj-php:latest. Baza danych dowolna, sugeruję SQLite.
 
-:x: 3.0 Należy stworzyć jeden model z kontrolerem z produktami, zgodnie z CRUD
+:white_check_mark: 3.0 Należy stworzyć jeden model z kontrolerem z produktami, zgodnie z CRUD [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/04afd3f5548160476a36397f77d2f7a1cd7027df)
 
-:x: 3.5 Należy stworzyć skrypty do testów endpointów via curl
+:white_check_mark: 3.5 Należy stworzyć skrypty do testów endpointów via curl [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/d96bd44b22f62e81c61a6bf8ad52b483207fd6f9)
 
-:x: 4.0 Należy stworzyć dwa dodatkowe kontrolery wraz z modelami
+:white_check_mark: 4.0 Należy stworzyć dwa dodatkowe kontrolery wraz z modelami [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/e0df54c0221d69e1a6c5f8829553bb1f215419f8)
 
-:x: 4.5 Należy stworzyć widoki do wszystkich kontrolerów
+:white_check_mark: 4.5 Należy stworzyć widoki do wszystkich kontrolerów [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/e0df54c0221d69e1a6c5f8829553bb1f215419f8)
 
-:x: 5.0 Stworzenie panelu administracyjnego z mockowanym logowaniem
+:x: 5.0 Stworzenie panelu administracyjnego z mockowanym logowaniem 
+
+Kod: [Zadanie 2](https://github.com/JTMalczewski/obiektowe/tree/main/Zadanie%202)
