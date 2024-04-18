@@ -66,7 +66,7 @@ class ProductController extends AbstractController
     }
 
     #[Route('/{id}/edit', name: 'app_product_edit', methods: ['GET', 'POST'])]
-    public function edit(Request $request, Product $product, EntityManagerInterface $entityManager): Response
+    public function edit(Request $request, Product $product, EntityManagerInterface $entityManager):  Response
     {
         $form = $this->createForm(ProductType::class, $product);
         $form->handleRequest($request);
@@ -81,6 +81,18 @@ class ProductController extends AbstractController
             'product' => $product,
             'form' => $form,
         ]);
+    }
+
+    #[Route('/{id}/editer', name: 'app_product_editer', methods: ['POST'])]
+    public function editer(Request $request, Product $product, EntityManagerInterface $entityManager):  Response
+    {
+        $form = $this->createForm(ProductType::class, $product);
+        $form->handleRequest($request);
+
+        
+        $entityManager->flush();
+
+        return new Response('success');
     }
 
     #[Route('/{id}', name: 'app_product_delete', methods: ['POST'])]
