@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Bands index{% endblock %}
+
+{% block body %}
+    <h1>Bands index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Discs</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for band in bands %}
+            <tr>
+                <td>{{ band.id }}</td>
+                <td>{{ band.name }}</td>
+                <td>{{ band.discs }}</td>
+                <td>
+                    <a href="{{ path('app_bands_show', {'id': band.id}) }}">show</a>
+                    <a href="{{ path('app_bands_edit', {'id': band.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="4">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_bands_new') }}">Create new</a>
+{% endblock %}
