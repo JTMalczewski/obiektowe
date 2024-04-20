@@ -21,7 +21,7 @@ Należy stworzyć aplikację webową na bazie frameworka Symfony na obrazie kprz
 
 :white_check_mark: 3.5 Należy stworzyć skrypty do testów endpointów via curl [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/d96bd44b22f62e81c61a6bf8ad52b483207fd6f9)
 
-:white_check_mark: 4.0 Należy stworzyć dwa dodatkowe kontrolery wraz z modelami [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/e0df54c0221d69e1a6c5f8829553bb1f215419f8)
+:white_check_mark: 4.0 Należy stworzyć dwa dodatkowe kontrolery wraz z modelami [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/8fae87ef31aa68f97c98eafcf3a77284c550846d)
 
 :white_check_mark: 4.5 Należy stworzyć widoki do wszystkich kontrolerów [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/e0df54c0221d69e1a6c5f8829553bb1f215419f8)
 
@@ -35,12 +35,14 @@ Spring Boot (Kotlin)
 
 Proszę stworzyć prosty serwis do autoryzacji, który zasymuluje autoryzację użytkownika za pomocą przesłanej nazwy użytkownika oraz hasła. Serwis powinien zostać wstrzyknięty do kontrolera za pomocą anotacji @Autowired. Aplikacja ma oczywiście zawierać jeden kontroler i powinna zostać napisana w języku Kotlin. Oparta powinna zostać na frameworku Spring Boot, podobnie jak na zajęciach. Serwis do autoryzacji powinien być singletonem.
 
-:x: 3.0 Należy stworzyć jeden kontroler wraz z danymi wyświetlanymi z listy na endpoint’cie w formacie JSON - Kotlin + Spring Boot
+:white_check_mark: 3.0 Należy stworzyć jeden kontroler wraz z danymi wyświetlanymi z listy na endpoint’cie w formacie JSON - Kotlin + Spring Boot [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/8fae87ef31aa68f97c98eafcf3a77284c550846d)
 
-:x: 3.5 Należy stworzyć klasę do autoryzacji (mock) jako Singleton w formie eager
+:white_check_mark: 3.5 Należy stworzyć klasę do autoryzacji (mock) jako Singleton w formie eager [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/8fae87ef31aa68f97c98eafcf3a77284c550846d)
 
-:x: 4.0 Należy obsłużyć dane autoryzacji przekazywane przez użytkownika
+:white_check_mark: 4.0 Należy obsłużyć dane autoryzacji przekazywane przez użytkownika [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/8fae87ef31aa68f97c98eafcf3a77284c550846d)
 
-:x: 4.5 Należy wstrzyknąć singleton do głównej klasy via @Autowired
+:white_check_mark: 4.5 Należy wstrzyknąć singleton do głównej klasy via @Autowired [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/8fae87ef31aa68f97c98eafcf3a77284c550846d)
 
-:x: 5.0 Obok wersji Eager do wyboru powinna być wersja Singletona w wersji lazy
+:white_check_mark: 5.0 Obok wersji Eager do wyboru powinna być wersja Singletona w wersji lazy [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/8fae87ef31aa68f97c98eafcf3a77284c550846d)
+
+Kod: [Zadanie 3](https://github.com/JTMalczewski/obiektowe/tree/main/Zadanie%203)
