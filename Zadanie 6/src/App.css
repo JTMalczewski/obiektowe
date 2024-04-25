@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40rem;
+  margin-top: 2rem;
+}
+
+.App_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+  border-radius: 1rem;
+  height: 20rem;
+  width: 30rem;
+}
+
+.App_link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}

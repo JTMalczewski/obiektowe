@@ -1,0 +1,24 @@
+.Layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    background-color: black;
+    height: 3rem;
+}
+
+.link {
+    text-decoration: none;
+    color: wheat;
+    margin-right: 1rem;
+}
+
+.SearchArea {
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.textarea {
+    margin-right: 1rem;
+}

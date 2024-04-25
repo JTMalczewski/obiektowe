@@ -46,3 +46,49 @@ Proszę stworzyć prosty serwis do autoryzacji, który zasymuluje autoryzację u
 :white_check_mark: 5.0 Obok wersji Eager do wyboru powinna być wersja Singletona w wersji lazy [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/8fae87ef31aa68f97c98eafcf3a77284c550846d)
 
 Kod: [Zadanie 3](https://github.com/JTMalczewski/obiektowe/tree/main/Zadanie%203)
+
+**Zadanie 4 Wzorce strukturalne**
+
+Należy stworzyć aplikację w Go na frameworku echo. Aplikacja ma mieć jeden endpoint, minimum jedną funkcję proxy, która pobiera dane np. o pogodzie, giełdzie, etc. (do wyboru) z zewnętrznego API. Zapytania do endpointu można wysyłać w jako GET lub POST.
+
+:x: 3.0 Należy stworzyć aplikację we frameworki echo w j. Go, która będzie miała kontroler Pogody, która pozwala na pobieranie danych o pogodzie (lub akcjach giełdowych)
+
+:x: 3.5 Należy stworzyć model Pogoda (lub Giełda) wykorzystując gorm, a dane załadować z listy przy uruchomieniu
+
+:x: 4.0 Należy stworzyć klasę proxy, która pobierze dane z serwisu zewnętrznego podczas zapytania do naszego kontrolera
+
+:x: 4.5 Należy zapisać pobrane dane z zewnątrz do bazy danych
+
+:x: 5.0 Należy rozszerzyć endpoint na więcej niż jedną lokalizację (Pogoda), lub akcje (Giełda) zwracając JSONa
+
+**Zadanie 5 Wzorce behawioralne**
+
+React (JavaScript/Typescript)
+
+Należy stworzyć aplikację kliencką wykorzystując bibliotekę React.js. W ramach projektu należy stworzyć trzy komponenty: Uslugi, Zamowienia oraz Płatności. Zamówienia oraz Płatności powinny wysyłać do aplikacji serwerowej dane, a w Uslugach powinniśmy pobierać dane o dostępnych usługach z aplikacji serwerowej. Dane pomiędzy wszystkimi komponentami powinny być przesyłane za pomocą React hooks.
+
+:x: 3.0 W ramach projektu należy stworzyć dwa komponenty: Produkty oraz Płatności; Płatności powinny wysyłać do aplikacji serwerowej dane, a w Produktach powinniśmy pobierać dane o produktach z aplikacji serwerowej;
+
+:x: 3.5 Należy dodać Koszyk wraz z widokiem; należy wykorzystać routing
+
+:x: 4.0 Dane pomiędzy wszystkimi komponentami powinny być przesyłane za pomocą React hooks
+
+:x: 4.5 Należy dodać skrypt uruchamiający aplikację serwerową oraz kliencką na dockerze via docker-compose
+
+:x: 5.0 Należy wykorzystać axios’a oraz dodać nagłówki pod CORS
+
+**Zadanie 6 Zapaszki**
+
+Sonar (JS)
+
+W ramach zadania VI należy zredukować błędy typu: Bugs, Security Hotspots, Vulnerabilities oraz Code Smells. Błędy powinny być efektem statycznej analizy kodu za pomocą rozwiązania Sonar Cloud (https://sonarcloud.io/). Dodatkowo należy w Readme.md na każdym repozytorium dodać badge SonarCloud do powyższych czterech typów błędów (https://sonarcloud.io/project/information?id=). Należy sprawdzić kod projektu IV z kodem w React’cie.
+
+:white_check_mark: 3.0 Należy dodać eslint w hookach gita
+
+:white_check_mark: 3.5 Należy wyeliminować wszystkie bugi w kodzie w Sonarze (kod aplikacji klienckiej)
+
+:white_check_mark: 4.0 Należy wyeliminować wszystkie zapaszki w kodzie w Sonarze (kod aplikacji klienckiej)
+
+:white_check_mark: 4.5 Należy wyeliminować wszystkie podatności oraz błędy bezpieczeństwa w kodzie w Sonarze (kod aplikacji klienckiej)
+
+:white_check_mark: 5.0 Zredukować duplikaty kodu do 0%
