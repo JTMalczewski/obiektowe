@@ -67,15 +67,17 @@ React (JavaScript/Typescript)
 
 Należy stworzyć aplikację kliencką wykorzystując bibliotekę React.js. W ramach projektu należy stworzyć trzy komponenty: Uslugi, Zamowienia oraz Płatności. Zamówienia oraz Płatności powinny wysyłać do aplikacji serwerowej dane, a w Uslugach powinniśmy pobierać dane o dostępnych usługach z aplikacji serwerowej. Dane pomiędzy wszystkimi komponentami powinny być przesyłane za pomocą React hooks.
 
-:x: 3.0 W ramach projektu należy stworzyć dwa komponenty: Produkty oraz Płatności; Płatności powinny wysyłać do aplikacji serwerowej dane, a w Produktach powinniśmy pobierać dane o produktach z aplikacji serwerowej;
+:white_check_mark: 3.0 W ramach projektu należy stworzyć dwa komponenty: Produkty oraz Płatności; Płatności powinny wysyłać do aplikacji serwerowej dane, a w Produktach powinniśmy pobierać dane o produktach z aplikacji serwerowej [Link do commita](https://github.com/JTMalczewski/ebiznes/commit/721bada73a965fc676850321088647d7008f8d7f)
 
-:x: 3.5 Należy dodać Koszyk wraz z widokiem; należy wykorzystać routing
+:white_check_mark: 3.5 Należy dodać Koszyk wraz z widokiem; należy wykorzystać routing [Link do commita](https://github.com/JTMalczewski/ebiznes/commit/721bada73a965fc676850321088647d7008f8d7f)
 
-:x: 4.0 Dane pomiędzy wszystkimi komponentami powinny być przesyłane za pomocą React hooks
+:white_check_mark: 4.0 Dane pomiędzy wszystkimi komponentami powinny być przesyłane za pomocą React hooks [Link do commita](https://github.com/JTMalczewski/ebiznes/commit/721bada73a965fc676850321088647d7008f8d7f)
 
 :x: 4.5 Należy dodać skrypt uruchamiający aplikację serwerową oraz kliencką na dockerze via docker-compose
 
 :x: 5.0 Należy wykorzystać axios’a oraz dodać nagłówki pod CORS
+
+Kod: [Zadanie 5](https://github.com/JTMalczewski/ebiznes/tree/main/zadanie_5)
 
 **Zadanie 6 Zapaszki**
 
@@ -92,3 +94,50 @@ W ramach zadania VI należy zredukować błędy typu: Bugs, Security Hotspots, V
 :white_check_mark: 4.5 Należy wyeliminować wszystkie podatności oraz błędy bezpieczeństwa w kodzie w Sonarze (kod aplikacji klienckiej)
 
 :white_check_mark: 5.0 Zredukować duplikaty kodu do 0%
+
+**Zadanie 7 Antywzorce**
+Vapor (Swift)
+
+Proszę napisać prostą aplikację w Vaporze, wykorzystując Leaf jako silnik szablonów or Fluent jako ORM. Proszę stworzyć trzy modele oraz CRUD dla każdego z nich. Należy stworzyć model z minimum jedną relacją. CRUD powinien mieć odzwierciedlenie w szablonach.
+
+3.0 Należy stworzyć kontroler wraz z modele Produktów zgodny z CRUD w ORM Fluent
+
+3.5 Należy stworzyć szablony w Leaf
+
+4.0 Należy stworzyć drugi model oraz kontroler Kategorii wraz z relacją
+
+4.5 Należy wykorzystać Redis do przechowywania danych
+
+5.0 Wrzucić aplikację na heroku
+
+https://www.heroku.com/github-students
+
+**Zad 8 Mobile first**
+(Android)
+
+:white_check_mark: 3.0 stworzenie listy kategorii oraz produktów
+
+:white_check_mark: 3.5 dodać koszyk
+
+4.0 stworzyć bazę w Realmie
+
+4.5 dodać płatności w Stripe
+
+5.0 logowanie i rejestrację via Oauth2 dodać
+
+
+**Zadanie 9 Testy**
+
+Proszę pamiętać o stworzeniu darmowego konta via https://education.github.com/pack.
+
+3.0 Należy stworzyć 20 przypadków testowych w CypressJS lub Selenium (Kotlin, Python, Java, JS, Go, Scala) [Link do commita - ebiznes](https://github.com/JTMalczewski/ebiznes/commit/df1fbe5629c20f133d1071aedf2ee77fe486d1e5)
+
+3.5 Należy rozszerzyć testy funkcjonalne, aby zawierały minimum 50 asercji
+
+4.0 Należy stworzyć testy jednostkowe do wybranego wcześniejszego projektu z minimum 50 asercjami
+
+4.5 Należy dodać testy API, należy pokryć wszystkie endpointy z minimum jednym scenariuszem negatywnym per endpoint
+
+5.0 Należy uruchomić testy funkcjonalne na Browserstacku
+
+Kod: [Zadanie 6 - ebiznes](https://github.com/JTMalczewski/ebiznes/tree/main/zadanie_6)
