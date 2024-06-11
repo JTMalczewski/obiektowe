@@ -85,7 +85,7 @@ Sonar (JS)
 
 W ramach zadania VI należy zredukować błędy typu: Bugs, Security Hotspots, Vulnerabilities oraz Code Smells. Błędy powinny być efektem statycznej analizy kodu za pomocą rozwiązania Sonar Cloud (https://sonarcloud.io/). Dodatkowo należy w Readme.md na każdym repozytorium dodać badge SonarCloud do powyższych czterech typów błędów (https://sonarcloud.io/project/information?id=). Należy sprawdzić kod projektu IV z kodem w React’cie.
 
-:white_check_mark: 3.0 Należy dodać eslint w hookach gita
+:white_check_mark: 3.0 Należy dodać eslint w hookach gita [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/e6c3e6afc1dc166806601ab7e78e9a159e2f3302)
 
 :white_check_mark: 3.5 Należy wyeliminować wszystkie bugi w kodzie w Sonarze (kod aplikacji klienckiej)
 
@@ -94,6 +94,10 @@ W ramach zadania VI należy zredukować błędy typu: Bugs, Security Hotspots, V
 :white_check_mark: 4.5 Należy wyeliminować wszystkie podatności oraz błędy bezpieczeństwa w kodzie w Sonarze (kod aplikacji klienckiej)
 
 :white_check_mark: 5.0 Zredukować duplikaty kodu do 0%
+
+[eslint](https://github.com/JTMalczewski/obiektowe/blob/main/demos/zadanie_6.mkv)\
+[Front repo](https://github.com/JTMalczewski/ReactShop)\
+[Backend repo](https://github.com/JTMalczewski/ReactShopBackend)
 
 **Zadanie 7 Antywzorce**
 Vapor (Swift)
@@ -115,16 +119,16 @@ https://www.heroku.com/github-students
 **Zad 8 Mobile first**
 (Android)
 
-:white_check_mark: 3.0 stworzenie listy kategorii oraz produktów
+:white_check_mark: 3.0 stworzenie listy kategorii oraz produktów [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/6b4def0db429fbf1638a7f1269ed8c70a82d8a59)
 
-:white_check_mark: 3.5 dodać koszyk
+:white_check_mark: 3.5 dodać koszyk [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/6b4def0db429fbf1638a7f1269ed8c70a82d8a59)
 
 4.0 stworzyć bazę w Realmie
 
 4.5 dodać płatności w Stripe
 
 5.0 logowanie i rejestrację via Oauth2 dodać
-
+Kod: [Zadanie 8](https://github.com/JTMalczewski/obiektowe/tree/main/zadanie%208/MobileFirst)
 
 **Zadanie 9 Testy**
 
