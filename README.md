@@ -134,7 +134,7 @@ Kod: [Zadanie 8](https://github.com/JTMalczewski/obiektowe/tree/main/zadanie%208
 
 Proszę pamiętać o stworzeniu darmowego konta via https://education.github.com/pack.
 
-3.0 Należy stworzyć 20 przypadków testowych w CypressJS lub Selenium (Kotlin, Python, Java, JS, Go, Scala) [Link do commita - ebiznes](https://github.com/JTMalczewski/ebiznes/commit/df1fbe5629c20f133d1071aedf2ee77fe486d1e5)
+:white_check_mark: 3.0 Należy stworzyć 20 przypadków testowych w CypressJS lub Selenium (Kotlin, Python, Java, JS, Go, Scala) [Link do commita - ebiznes](https://github.com/JTMalczewski/ebiznes/commit/df1fbe5629c20f133d1071aedf2ee77fe486d1e5)
 
 3.5 Należy rozszerzyć testy funkcjonalne, aby zawierały minimum 50 asercji
 
