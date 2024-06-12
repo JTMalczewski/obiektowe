@@ -104,7 +104,7 @@ Vapor (Swift)
 
 Proszę napisać prostą aplikację w Vaporze, wykorzystując Leaf jako silnik szablonów or Fluent jako ORM. Proszę stworzyć trzy modele oraz CRUD dla każdego z nich. Należy stworzyć model z minimum jedną relacją. CRUD powinien mieć odzwierciedlenie w szablonach.
 
-3.0 Należy stworzyć kontroler wraz z modele Produktów zgodny z CRUD w ORM Fluent
+:white_check_mark: 3.0 Należy stworzyć kontroler wraz z modele Produktów zgodny z CRUD w ORM Fluent [Link do commita](https://github.com/JTMalczewski/obiektowe/commit/04e0baea69b6f32d47e6224a010b48ff2a56bff2)
 
 3.5 Należy stworzyć szablony w Leaf
 
@@ -115,6 +115,8 @@ Proszę napisać prostą aplikację w Vaporze, wykorzystując Leaf jako silnik s
 5.0 Wrzucić aplikację na heroku
 
 https://www.heroku.com/github-students
+
+Kod: [Zadanie 7](https://github.com/JTMalczewski/obiektowe/tree/main/Zadanie%207/app/CrudApp)
 
 **Zad 8 Mobile first**
 (Android)
